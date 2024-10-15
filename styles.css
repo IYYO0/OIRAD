@@ -12,6 +12,15 @@
     color: #EEEEEE;
   }
 
+  .hr {
+    width: 75%; /* Atur lebar garis sesuai kebutuhan */
+    border: 1px solid #fffcfc; /* Warna dan ketebalan garis */
+    margin: 50px auto; /* Mengatur margin agar berada di tengah */
+    opacity: 10%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   /* Navbar */
   .navbar {
     display: flex;
@@ -232,7 +241,7 @@
   .goals h2 {
     font-size: 32px;
     color: #EEEEEE;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .goals-container {
@@ -313,7 +322,7 @@
   left: 0; /* Sidebar muncul */
 }
 
-/* About Me Section */
+/* -me Me Section */
 .about-me {
   text-align: center;
   padding: 50px 20px;
@@ -334,6 +343,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
+  margin-top: 40px;
 }
 
 .about-me h1 {
@@ -524,6 +534,7 @@ a {
   width: 90%;
   margin: 0 auto; /* Center grid */
   margin-top: 25px;
+  
 }
 
 /* Work Items Grid */
@@ -592,7 +603,7 @@ a {
   }
 
   .work {
-    padding: 70px 40px; /* Increased padding for desktop */
+    padding: 50px 40px; /* Increased padding for desktop */
   }
 
   .work h2 {
@@ -913,7 +924,7 @@ a {
 }
 
 .work {
-  padding: 70px 40px; /* Increased padding for desktop */
+  padding: 20px 40px; /* Increased padding for desktop */
 }
 
 .work h2 {
